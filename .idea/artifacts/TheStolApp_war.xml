@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="TheStolApp:war">
+    <output-path>$PROJECT_DIR$/../TheStolApp/target</output-path>
+    <root id="archive" name="net.theStol-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="TheStolApp:war exploded" />
+    </root>
+  </artifact>
+</component>
