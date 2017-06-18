@@ -11,7 +11,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 public class Restoraunt {
 
     @Id
-    private Long id;
+   private Long id;
     private String nameRestoraunt;
     private String categoty;
     private String description;
@@ -59,13 +59,4 @@ public class Restoraunt {
         this.description = description;
     }
 
-    @Override
-    public String toString() {
-        return "Restoraunt{" +
-                "id=" + id +
-                ", nameRestoraunt='" + nameRestoraunt + '\'' +
-                ", categoty='" + categoty + '\'' +
-                ", description='" + description + '\'' +
-                '}';
-    }
 }

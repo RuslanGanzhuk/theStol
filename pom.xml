@@ -7,36 +7,51 @@
     <groupId>net.theStol</groupId>
     <artifactId>net.theStol</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>war</packaging>
+
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.5.2.RELEASE</version>
+    </parent>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
 
     <dependencies>
+
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-core</artifactId>
-            <version>4.3.9.RELEASE</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-            <version>4.3.9.RELEASE</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <version>3.1.0</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>org-boot-devtools</artifactId>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-mongodb -->
         <dependency>
-            <groupId>org.springframework.data</groupId>
-            <artifactId>spring-data-mongodb</artifactId>
-            <version>1.10.4.RELEASE</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-freemarker</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-mongodb</artifactId>
+        </dependency>
 
     </dependencies>
-
 
 </project>
